@@ -1,0 +1,45 @@
+  body {
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    text-align: center;
+}
+ 
+button {
+    width: 50px;
+    height: 60px;
+    font-size: 30px;
+    background-color: lightgreen;
+    color: solid black;
+}
+
+.decrement-button{
+    background-color: orangered;
+}
+  
+button:hover {
+    background-color: green;
+    color: black;
+}
+
+.decrement-button:hover{
+    background-color: darkred;
+    color: black;
+}
+   
+h1 {
+    color: black;
+    margin: 0 50px;
+    font-size: 45px;
+}
