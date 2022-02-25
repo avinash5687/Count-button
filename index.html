@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
     <title>count-button</title>
+
     <link rel="stylesheet" href="./index.css">
     <script src="./index.js"></script>
 
@@ -15,13 +18,22 @@
 
 <body>
 
-    <div="container">            
-
-        <button onclick="increment()">+</button>  
+    <div class="counter">
         <h1 id="votes">0</h1>
-        <button class="decrement-button" onclick="decrement()">-</button>  
-
     </div>
+
+    <button class="dislike" onclick="decrement()">
+        <i class="fas fa-thumbs-down"></i>
+    </button>
+
+    <button class="reset" onclick="reset()">
+        <i class="fas fa-undo"></i>
+    </button>
+
+    <button class="like" onclick="increment()">
+        <i class="fas fa-thumbs-up"></i>
+    </button>
+        
 
 </body>
 

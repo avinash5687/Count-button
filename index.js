@@ -1,6 +1,4 @@
-var data = 0;
-  
-document.getElementById("counting").innerText = data;
+  document.getElementById("container").innerText = data;
 
 
 function increment()
@@ -18,3 +16,10 @@ function decrement()
     count--;
     votes.innerHTML = count;
 }
+
+function reset() {
+    let votes = document.getElementById('votes');
+    let count = parseInt(votes.innerHTML);
+    value = 0;
+    votes.innerHTML = value;
+  }
