@@ -1,21 +1,18 @@
 body {
     text-align: center;
-    background-color: rgb(92, 81, 81);
-    height: ;
+    background-image: linear-gradient(#743d19, #0f423b);
+    height: 38em;
 }
  
-h1 {
-    text-align: center;
-    font-size: 8em;
-    justify-content: center;
-}
 
-.counter{
+.number{
     margin: auto;
     border: groove;
     border-radius: 20px;
     width: 350px;
     height: 250px;
+    color: grey;
+    font-size: 50px;
 }
 
 button{

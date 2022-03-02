@@ -18,21 +18,27 @@
 
 <body>
 
-    <div class="counter">
+    <h1>Counter</h1>
+
+    <div class="container">
+
+        <div class="number">
         <h1 id="votes">0</h1>
+        </div>
+
+        <button class="dislike" onclick="decrement()">
+            <i class="fas fa-thumbs-down"></i>
+        </button>
+
+        <button class="reset" onclick="reset()">
+            <i class="fas fa-undo"></i>
+        </button>
+
+        <button class="like" onclick="increment()">
+            <i class="fas fa-thumbs-up"></i>
+        </button>
+
     </div>
-
-    <button class="dislike" onclick="decrement()">
-        <i class="fas fa-thumbs-down"></i>
-    </button>
-
-    <button class="reset" onclick="reset()">
-        <i class="fas fa-undo"></i>
-    </button>
-
-    <button class="like" onclick="increment()">
-        <i class="fas fa-thumbs-up"></i>
-    </button>
         
 
 </body>
